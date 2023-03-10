@@ -1,0 +1,62 @@
+.imgProductos {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 40px 40px 0px 0px;
+   
+}
+h1, h2, h3{
+    text-align: center;
+    color: rgb(5, 94, 136);
+}
+#Portada{
+    margin-left: 20%;
+    width: 800px;
+    height: 500px; }
+
+body{
+    background-color: black;
+}
+
+.colorBoton {
+    color: white;
+    background-color: #161515;
+}
+
+.colorBoton:hover {
+    background-color: rgb(92, 87, 90);
+    color:white;
+}
+
+.card {
+   display: flex;
+    align-items: center;
+    margin: 0.5rem; }
+
+    
+    header{
+        width: 80vw;
+        height: 100vh;
+        background-image: url(../img/img7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-attachment: fixed ;
+        background-position: center ;
+
+    }
+    
+img {
+    width:200px;
+    height:200px;
+    border-radius:150px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+}
+h1{
+    position: center;
+    top: 10px;
+    left: 10px;
+}
+
+    
