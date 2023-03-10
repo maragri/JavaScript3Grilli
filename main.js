@@ -18,7 +18,7 @@ const Fideos = new Producto(6, "Fideos", 30, "img/Fideos.jpg");
 const Leche = new Producto(7, "Leche", 70, "img/Leche.jpg");
 const Papasbolsa = new Producto(8, "Papasbolsa", 350, "img/Papasbolsa.jpg");
 const Salchichas = new Producto(9, "Salchichas", 120, "img/Salchichas.jpg");
-const Vino = new Producto(10, "Vino", 900, "img/Vino.jpg");
+const Vino = new Producto(10, "Vino", 900, "img/vino.jpg");
 const Yogurt = new Producto(11, "Yogurt", 120, "img/Yogurt.jpg");
 
 
