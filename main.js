@@ -119,7 +119,9 @@ const eliminarDelCarrito = (id) => {
     mostrarCarrito();
 
     localStorage.setItem("carrito", JSON.stringify(carrito));
+     
 }
+
 
 const vaciarCarrito = document.getElementById("vaciarCarrito");
 
@@ -144,3 +146,28 @@ const calcularTotal = () => {
     })
     total.innerHTML = `Total $${totalCompra}`;
 }
+
+const botonCuatro = document.getElementById("botonCuatro");
+botonCuatro.addEventListener ("click", () =>{ 
+    Swal.fire ({
+    title: 'Asociate y obtené grandes beneficios',
+    text:'Ingresá tu mail y conocé los descuentos que tenemos para vos',
+    input: 'text',
+
+    icon: 'success',
+    showCancelButton: true,
+    confirmButtonColor: 'black',
+    cancelButtonColor: '#d33',
+    confirmButtonText:'Aceptar', 
+}).then((result) => {
+    if (result.isConfirmed){
+        swal.fire(
+            'Ya sos parte de Club Changuito',
+            'Un asesor se comunicará en breve',
+            'success'
+        )
+    }
+})
+
+})
+
